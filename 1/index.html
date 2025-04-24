@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bienvenido a Botica</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container" style="text-align: center;">
+    <h1 style="margin-bottom: 1rem; color: #2c3e50;">Bienvenido a Botica</h1>
+    <button onclick="mostrarVentanaMonto()">Ingresar Monto</button>
+  </div>
+
+  <div class="modal" id="modalMonto">
+    <div class="modal-content">
+      <h2>Inserte su monto</h2>
+      <input type="number" id="inputMonto" placeholder="S/ 0.00" />
+      <button onclick="guardarMonto()">Agregar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
